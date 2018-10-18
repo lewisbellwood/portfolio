@@ -1,0 +1,9 @@
+.d3-linechart {
+    &__line{
+        fill: none;
+        stroke: gray;
+        stroke-width: 1.5;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+    }
+}

@@ -1,0 +1,20 @@
+.gallery{
+    &__item-holder{
+        border-radius: 5px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        background: #000;
+        
+    }
+    &__item{
+        height: 100%;
+        background: #e8e8e8;
+        &:hover{
+            transition: 0.3s;
+            filter:  grayscale(100%);
+            opacity: 0.5;
+        }
+
+    }
+
+}
